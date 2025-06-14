@@ -1,8 +1,9 @@
 # Configuración principal de la revista
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: La Mano Visible
 description: Revista científica de economía de la Universidad Nacional Mayor de San Marcos (UNMSM)
-logo: /assets/images/logo.png
-theme: jekyll-theme-cayman
 
 # Información de la revista
 locale: es-PE
