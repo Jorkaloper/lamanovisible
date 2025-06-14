@@ -1,0 +1,45 @@
+# Configuración principal de la revista
+title: La Mano Visible
+description: Revista científica de economía de la Universidad Nacional Mayor de San Marcos (UNMSM)
+logo: /assets/images/logo.png
+theme: jekyll-theme-cayman
+
+# Información de la revista
+locale: es-PE
+email: lamanovisible@unmsm.edu.pe
+baseurl: ""
+url: ""
+
+# Personalización del tema
+show_downloads: false
+
+# Configuración de navegación principal
+header_pages:
+  - acerca.md
+  - ediciones.md
+  - normas.md
+  - envios.md
+  - contacto.md
+
+# Metadatos para indexación
+keywords: economía, revista científica, macroeconomía, microeconomía, UNMSM
+issn: 2023-XXXX  # Reemplazar con tu ISSN cuando lo tengas
+
+# SEO y social media
+author: Universidad Nacional Mayor de San Marcos
+twitter:
+  username: UNMSM_OFICIAL
+  
+# Analítica (opcional)
+google_analytics: # Tu código de Google Analytics
+
+# Configuración de compilación
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Datos de la revista
+periodicidad: Mensual
+fecha_fundacion: 2025
